@@ -35,7 +35,7 @@ const App = () => {
 
       <div className='px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04'>
         <p className={`${styles.pText} ${styles.whiteText} pt-10`}>Made with love by {" "} 
-          <span className='bold'>Kyle Dean
+          <span className={`${styles.pText} bold`}>Kyle Dean
             <span className='block'>💖</span>
           </span>
         </p>
